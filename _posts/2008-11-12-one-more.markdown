@@ -20,6 +20,7 @@ author_url: http://hplogsdon.com
 status: publish
 date: 2008-11-12 21:17:06 -07:00
 author: uxp
+description: Being a technical geek, I haven't had a blog in a long time, or rather, this is the first time I feel good about having a blog. Before, I'd have one that I'd install, put 2 posts up, then remove after 5 months of inactivity.
 ---
 Being a technical geek, I haven't had a blog in a long time, or rather, this is the first time I feel good about having a blog. Before, I'd have one that I'd install, put 2 posts up, then remove after 5 months of inactivity.
 

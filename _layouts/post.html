@@ -5,7 +5,7 @@ layout: default
 	<div class="post-meta">
 		<ul>
 			<li>{{ page.date | date_to_long_string }}</li>
-			<li>Section: {{ page.category }}</li>
+			<li>Section: <b>{{ page.categories | array_to_sentence_words }}</b></li>
 		</ul>
 	</div>
 	<div id="post" class="post">
@@ -14,6 +14,4 @@ layout: default
 			{{ content }}
 		</div>
 	</div>
-</div>
-<div class="secondary-column">
 </div>
