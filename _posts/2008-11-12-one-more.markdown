@@ -1,0 +1,30 @@
+--- 
+tags: 
+- customer service
+- internet
+- ISP
+- server failure
+- xmission
+wordpress_url: http://hplogsdon.com/blog/?p=11
+published: true
+layout: post
+wordpress_id: 13
+categories: 
+- General
+author_login: uxp
+author_email: uxp@bsdeviant.org
+title: One more....
+comments: []
+
+author_url: http://hplogsdon.com
+status: publish
+date: 2008-11-12 21:17:06 -07:00
+author: uxp
+---
+Being a technical geek, I haven't had a blog in a long time, or rather, this is the first time I feel good about having a blog. Before, I'd have one that I'd install, put 2 posts up, then remove after 5 months of inactivity.
+
+Anyways, being about technical stuff, here's a little something that I'm rather proud of. My ISP, <a href="http://www.xmission.com">XMission</a> yesterday decided that they were going to replace some batteries in one of their UPS's for whatever reason. So they did the necessary stuff, and then flipped the breaker that was labeled for that particular UPS, and then all hell broke loose. Long story short, the breaker was mislabeled. This caused a NetAPP server to crash, their DNS server to go down, and about 40% of the webhosting to go offline. It screwed shit up, and destroyed 2 harddrives on the NetAPP, causing them to resort to a backup 2 days shy of live. I didnt have anything hurt by this. I connected into my home box from work and noticed I had some downed connections on all my IRC clients, didnt think much of it, and reconnected.
+
+Either way, they go ahead and post details bout it, apologize and then fix everything. Completely Honest and Sincere about it. When I was using Comcast Cable as an ISP, I decided I wanted to buy my own modem. I did not want to use theirs and pay $5.00 a month for something worth $0.50 retail. About 6 months later my connection started acting funny. It would disconnect, then reconnect at like 10% throughput. I called them up and asked a tech to come out and test my lines, and they wanted to charge me $100 because it was my modem. I knew my modem was not bad. After the guy came out and said he couldn't get a signal at my apartment on the line, and that the fuckup was somewhere down the line, not inside my apartment, they still sent my a bill for $100. This continued for 2 month until I canceled. It took 6 months to resolve the bill dispute, even after I canceled the account.
+
+Anyways, I fucking love XMission. Transparency, even for a slightly slower connection, is what keeps me using their service. If only I could force my county to adopt Fiber Infrastructure, or at least if I could get rid of Qwest, since they own the copper.

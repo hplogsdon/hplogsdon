@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<div id="main-column">
+	<div class="post-meta">
+		<ul>
+			<li>{{ page.date | date_to_long_string }}</li>
+			<li>Section: {{ page.category }}</li>
+		</ul>
+	</div>
+	<div id="post" class="post">
+		<h2><a href="{{ page.link }}" title="{{ page.title }}">{{ page.title }}</a></h2>
+		<div class="entry">
+			{{ content }}
+		</div>
+	</div>
+</div>
+<div class="secondary-column">
+</div>

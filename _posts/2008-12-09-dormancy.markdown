@@ -1,0 +1,32 @@
+--- 
+tags: 
+- design
+- Hacking
+- ie sucks
+- wordpress
+- xHTML
+wordpress_url: http://166.70.27.129/dev/hplogsdon/blog/?p=27
+published: true
+layout: post
+wordpress_id: 27
+categories: 
+- Web Design
+author_login: uxp
+author_email: uxp@bsdeviant.org
+title: Dormancy
+comments: []
+
+author_url: http://hplogsdon.com
+status: publish
+date: 2008-12-09 08:43:41 -07:00
+author: uxp
+---
+Good timing I guess. Its the morning right now, and I decided to look at the site to see if there was anything that I didn't like. All in all it looks good. I'm happy I was able to build a site from scratch, but the site isn't completely live yet. Its sitting on my staging server, and needs to be migrated over. There are a few projects of my own I'm in the middle of. I spent all last night going through some Objective-C code, which is nice. Having other things to go to is more of a good thing than a bad one. Sometimes I feel like I'm trying to do too much, but I don't have any deadlines other than the arbitrary ones I set myself. When I'm working on a project it becomes hard to step back and see if I have hit my goals, sidetracked to new objectives that weren't in the original plan, or even see if I'm doing it right. Being able to go to something else and use another part of my brain refreshes it for the next time I step back into the original project and realize that the difficult task of doing this method actually is quite easy, and why I spent 4 hours trying to do it the wrong way is rectified by spending 30 minutes doing it right.
+
+I'd like to be programming in one of the C languages. Either C, or C++, and now I'm looking into Objective-C. Objective-C really isnt that difficult or different, but the syntax and style of code is very unique. Now, when/if I get going really hard into it and start to develop an application that is usable (Calculators aren't the best thing in the world, especially when everything is hard coded into the program) I'd like to share it, the code and the program, for the world. Thats where the site comes into play.
+
+I wouldn't mind also doing some site design and developing as well. Properly coded xHTML/CSS isn't hard, but it is challenging. As I've said before, I am more into the guts of an application, so I still have a lot to learn regarding design. There are quite a few podcast archives I'm going through, such as <a href="http://creativesuitepodcast.com/">Adobe Creative Suite Podcast</a> and <a href="http://thepublicbroadcast.com/aoc">The Art of Code</a>. Both are excellent tutorials on making a site functional, aesthetically pleasing and very dynamically intriguing. If you have any interest in sharing your personal tastes with the world, I'd recommend you check them out.
+
+Rant: Internet Explorer sucks ass. My pervious site had a few issues with IE6 and IE7, which were a bitch to figure out. Luckily I still have a sticker plastered to the bottom of an older HP laptop that gave me a WinXP Home license which I promptly set up a virtual machine with to help with a lot of the cross browser and platform issues that arise with web development. endrant
+
+Anyways, maybe I'll start with the blog theme. I'd like to integrate it a little more closely with the root site layout, so I think there will be quite a bit of php wordpress hacking tonight. Lets see how it goes.

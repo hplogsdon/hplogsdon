@@ -1,0 +1,44 @@
+--- 
+tags: 
+- boredom
+- work
+wordpress_url: http://dharmahacker.com/blog/?p=97
+published: true
+layout: post
+wordpress_id: 97
+categories: 
+- General
+excerpt: |
+  Well, I'm at work right now waiting for some stuff to go through the cleaner. I have two baskets ready to go, but the long weekend without running the cleaner has made it slow down quite a bit. It runs a little rough and the hydraulics get sticky after about 2 days, so Mondays are usually rough going, and the extra day has made it worse.
+
+author_login: uxp
+author_email: uxp@bsdeviant.org
+title: Work sux
+comments: []
+
+author_url: http://hplogsdon.com
+status: publish
+date: 2009-05-26 11:40:07 -06:00
+author: uxp
+---
+Well, I'm at work right now waiting for some stuff to go through the cleaner. I have two baskets ready to go, but the long weekend without running the cleaner has made it slow down quite a bit. It runs a little rough and the hydraulics get sticky after about 2 days, so Mondays are usually rough going, and the extra day has made it worse.
+<a id="more"></a><a id="more-97"></a>
+In other news, I recently had an issue with my FreeBSD server box. At one point I wanted to run it both as a secure server, to stuff like SVN, and a insecure server for normal web page slinging. Well, realistically, I mucked up some configurations. http on port 80 would drop outgoing connections. https on 443 worked great though, however my certificate was self signed, which, for my use, was plenty fine, but it was annoying to review and accept the sketchy cert every session. I spent some time trying to resolve the issue, but at the end of the day, I concluded that it would actually be simpler to just download a more recent release ISO, and upgrade the box from scratch. I wanted to update it anyways. So a couple days ago I wiped the disk and reinstalled the OS. One of the greatest things about BSD and Linux is the ability with partitions and slices to basically do a clean wipe and install, yet retain your entire home directory.
+
+On other technology failure of mine, the terabyte WD MyBook I bought a little over a year ago started to fail a while ago. It was developing a click of death, and would fail to spin up after heating up after doing massive read/write sessions. I broke the enclosure open and stuck a small fan on the case, which worked for a while, but I couldn't stand he noise. I was also flat out broke, so it took a while, but I managed to scrape together some cash over a few months and bought a new WD 7200rpm Caviar Black 1TB internal disk. The old one was the "green" version. NewEgg had mixed reviews on them, the greens, being kinda faulty. I dunno. It's still under warranty, so I'll probably send the disk in for RMA. But, my had 200 gigs free on my internal disk so I had to copy, swap disks on the enclosure controller, paste, and repeat a few times.
+
+Sidetrack: during the time the green disk was out of commission, I basically kept it completely disconnected. This means all music was inaccessable, and since iTunes is such a whiny bitch about accessable media I kept it shutdown. This also ment I was not updating the iPod nor the iPhone.
+
+So as I was moving files over I would notice that when cold, the new black drive clicks when spinning up, but doesn't ever click after it's a little warm. I'll keep the old green drive around until I can guarantee this drive isn't having an issue. It does have a fit when it's vertical, and I don't know if that's common for the drive either. I really don't want to RMA it either.
+
+I should really get a new motherboard/proc together for a NAS/media server. Also, any fucking asshole that posts shit for sale on CraigsList, like 3 ~7 year old IBM 2.6ghz, 2gb RAM, 36gig RAID1 servers, for 20 bux each, and doesn't even bother to respond to replies (even if it's gone) should FOAD. If you're gonna bother posting an ad, please bother to reply to the listing, even after the things are sold and gone. You can delete it, you know. You make everyone look bad by not providing correspondence.
+
+So when I finally got everythig running again, my iPod ate shit. I'm not sure if it's due to me having rockbox on it, or if it's the drop it received the day prior to it's demise. I think it's a hardware issue because no matter what I try, I cannot write to the disk. The HDD sounds like it spins up fine and is wrking nomally, but fdisk and newfs are returning all sorts of write permissions and i/o errors. Manually creating the partition table is a bunch of failure.
+
+So I don't really care too much. My iPhone works decently, and besides a handful of favorite albums, I don't need 80Gigs of shit I haven't listened to since high school. Most my listening is devoted to podcasts these days, which require frequent updating, and that presidential inaguration speech isn't required to be with me all the time. Minimalist audio catalog itt. Besides, it's got fucking widescreen. All my tv and movies are widescreen anymore. Also, I can fucking write my blog (like I am right now) while listening to shit. Just need to remember to recharge a bit more frequently.
+
+Oh yeah, so after the harddrive fix, I updated my iPhone, and nearly all my apps updated as well. The wordpress app has landscape mode, awesome, and Twitterrific 2.0.1 is just goddamned cool.  Probably gonna buy the full version, even though I don't mind the ads. Square Enix released a new Final Fantasy based turn based strategy, as well as updated their older one that they ported from the iPod. So i'm damned bored at work (with work) but I've got shit to occupy my time.
+
+Well, I really should start to so somehing today, so I'll finish up these couple jobs and not feel worthless again. And need to remind myself to get ahold of that friend to talk about a new job opportunity... in PHP programming. Might be fun and teach me some useful shit.
+
+edit: goddamned the iPhone autocorrect sucks, and I'm a fan of weird words.

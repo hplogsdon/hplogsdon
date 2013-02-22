@@ -1,0 +1,29 @@
+--- 
+tags: 
+- spam
+- update
+- website
+- wordpress
+wordpress_url: http://hplogsdon.com/blog/?p=7
+published: true
+layout: post
+wordpress_id: 11
+categories: 
+- Web Design
+author_login: uxp
+author_email: uxp@bsdeviant.org
+title: Update
+comments: []
+
+author_url: http://hplogsdon.com
+status: publish
+date: 2008-11-12 20:53:17 -07:00
+author: uxp
+---
+So, despite me disliking Wordpress, I decided to use it. One think I do like about wordpress, is that a fucking senile old man can figure out how to write and post a blog in only a short while. This is probably why it is so popular. This is also why I dislike it.
+
+Either way, The site is all up. Got the MySQL database, popped the info into the wp-config.php file, and then there you go. I always forget to change the default password, which usually results in me tinkering with settings for 45 minutes, logging out and then yelling "FUCK" for 15 minutes at the top of my lungs before I sit back down, wipe the server of the install, and then re-install it.
+
+Let me know if you have any issues. Oh, and I finally revisted a friends blog. Check it out through the links on the right over ----->>>> there. Seems he uses WP as well, and is happy with a spam comment killer called Spam Karma 2, so its installed. I'm curious how well it works, so I let it display a pseudo-footer on the bottom of the blog posts to display how many its caught. This site isn't very useful, nor has any real traffic. I've only gotten a couple of spam comments via another site on this same server, so i doubt i'll be in the thousands, but who knows. I'm interested.
+
+speaking of spam, check this out I ran across this morning before work: <a href="http://news.bbc.co.uk/1/hi/technology/7719281.stm">BBC News | Study shows how spammers cash in</a>

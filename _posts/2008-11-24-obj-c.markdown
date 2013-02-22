@@ -1,0 +1,31 @@
+--- 
+tags: 
+- CSS
+- design
+- wordpress
+- xHTML
+wordpress_url: http://127.0.0.1/hplogsdon.org/blog/?p=16
+published: true
+layout: post
+wordpress_id: 16
+categories: 
+- Source Code
+- Web Design
+author_login: uxp
+author_email: uxp@bsdeviant.org
+title: Molting
+comments: []
+
+author_url: http://hplogsdon.com
+status: publish
+date: 2008-11-24 15:05:39 -07:00
+author: uxp
+---
+Changing again. I know that no one is reading this. I get occasional searches for SilverStripe theme help. The first time i assembled the site was through <a href="http://www.silverstripe.com">SilverStripe</a> and had issues with the way SS laid out the structure of the site. They did some weird things which wasn't all that different from the file system structure of a 'nix box. But, I didn't think it translated well to a web environment.
+
+Anyways the second revision was a blatant rip of someone else's CSS template. This one is not. Its not as clean either. Actually, it is a lot cleaner in the code and elsewhere. It is not as visually clean. This brings up a really good point. Developers/Coders/Engineers have a very hard time being a coder and a designer. All the images on the site are hand crafted through Photoshop. I've never had a formal class that revolved around Image creation, editing or manipulation. I've also never had a formal course regarding CSS/xHTML, PHP, JavaScript or C/C++/Obj-C either. But I somehow manage. I'm learning everything from the ground up by trial and error. I might understand it better than some kid who took a bunch of CS courses through a local University and pelted out a standard c+. This site also validates. Yeah. How fucking crazy is that. Actually, I dont know if validating websites is hard, or causes more render errors. It seems that a lot of professionally (or what appear to be) done sites don't validate. They still render properly (with an exception, or result of an exception), and they seem to work, so I guess W3C validation is more of a status symbol and not a basis for what is "correct". Web Pages need to function. And if they function, then everything is well. Right?
+
+Program code, as opposed to HTML (Markup), can't be wrong. Your compiler will give you an "Unmatched curly bracket at line 259, main.cpp". Granted an unmatched &lt;div&gt; isnt any better, but you can still view the page (unless its a MAJOR div element). Program code fucks things up when its wrong. HTML just looks bad. And its interpreted. I've never been a fan of interpreted program code. JS, Ruby, Perl, Python, BASH, its all the same = garbage. They have their place and usage, but fuck compiled code like C/C++/Java (sometimes) seems so much more stable. I might just be spitting arrogance, but its my personal opinion. Fuck off. Java is an interesting exception. I've always hated Java programs. For web services, Java is pretty cool, but running clientside, it always seems too laggy and slow for me.
+
+I'm digressing.
+TL;DR: I fucking hate designing. Coding is cool. I'll code any day. Tell me to work on a UI, Fuck off.

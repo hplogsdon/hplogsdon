@@ -1,0 +1,30 @@
+--- 
+tags: []
+
+wordpress_url: http://hplogsdon.com/?p=252
+published: true
+layout: post
+wordpress_id: 252
+categories: 
+- Software
+- Source Code
+excerpt: "I'm not sure how I skipped over this one, but I just found <a href=\"http://rails.vim.tpope.net/\">Rails.vim</a>, a script for Rails specific highlighting, MVC file navigation and rails scripts evocation. I've always favored VIM over... anything, and when I started the latest project, a Rails app, I decided to try out TextMate. "
+author_login: uxp
+author_email: uxp@bsdeviant.org
+title: Rails.vim
+comments: []
+
+author_url: http://hplogsdon.com
+status: publish
+date: 2009-11-16 18:56:08 -07:00
+author: uxp
+---
+I'm not sure how I skipped over this one, but I just found <a href="http://rails.vim.tpope.net/">Rails.vim</a>, a script for Rails specific highlighting, MVC file navigation and rails scripts evocation. I've always favored VIM over... anything, and when I started the latest project, a Rails app, I decided to try out TextMate. <a id="more"></a><a id="more-252"></a>
+
+I really do like TextMate, but I have a hard time with search and replace, and saving files. Who knew saving your buffer would be so difficult. Everything ends up like this:
+
+"idef function:w"
+
+Hilarious. But not when it comes time to be productive.
+
+So I'm putting aside TextMate and booting up MacVim again. 
