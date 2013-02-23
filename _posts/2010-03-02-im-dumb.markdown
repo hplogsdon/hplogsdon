@@ -1,6 +1,5 @@
 --- 
 tags: []
-
 wordpress_url: http://hplogsdon.com/?p=284
 published: true
 layout: post
@@ -11,16 +10,16 @@ author_login: uxp
 author_email: uxp@bsdeviant.org
 title: I'm dumb
 comments: []
-
+description: I'm an idiot...
 author_url: http://hplogsdon.com
 status: publish
 date: 2010-03-02 22:22:43 -07:00
 author: uxp
 ---
 I was doing some behind-the-scenes stuff a few days ago, and for whatever reason I reconfigured Apache to serve all my domains with 
-<code>
-AllowOverride None
-</code>
+
+	AllowOverride None
+
 set...
 
 Hopefully everything works with mod_rewrite, and other configurations that depended on .htaccess files set up.
