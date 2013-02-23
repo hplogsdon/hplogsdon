@@ -1,25 +1,46 @@
-set :application, "set your application name here"
-set :repository,  "set your repository location here"
 
-# set :scm, :git # You can set :scm explicitly or Capistrano will make an intelligent guess based on known version control directory names
-# Or: `accurev`, `bzr`, `cvs`, `darcs`, `git`, `mercurial`, `perforce`, `subversion` or `none`
+# =============================================================================
+# REQUIRED VARIABLES
+# =============================================================================
+set :application,       'hplogsdon.jekyll'
+set :repository,        '_site'
+set :scm,               :none
+set :deploy_via,        :copy
+set :copy_compression,  :gzip
+set :use_sudo,          false
+set :host,              'hplogsdon'
+set :port,              22
 
-role :web, "your web-server here"                          # Your HTTP server, Apache/etc
-role :app, "your app-server here"                          # This may be the same as your `Web` server
-role :db,  "your primary db-server here", :primary => true # This is where Rails migrations will run
-role :db,  "your slave db-server here"
+# =============================================================================
+# ROLES
+# =============================================================================
+role :web, host
+role :app, host
+role :db,  host, :primary => true
 
-# if you want to clean up old releases on each deploy uncomment this:
-# after "deploy:restart", "deploy:cleanup"
+set :user,      'howard'
+set :group,     'wheel'
 
-# if you're still using the script/reaper helper you will need
-# these http://github.com/rails/irs_process_scripts
+set :deploy_to, "/usr/local/www/#{application}"
 
-# If you are using Passenger mod_rails uncomment this:
-# namespace :deploy do
-#   task :start do ; end
-#   task :stop do ; end
-#   task :restart, :roles => :app, :except => { :no_release => true } do
-#     run "#{try_sudo} touch #{File.join(current_path,'tmp','restart.txt')}"
-#   end
-# end
+ssh_options[:paranoid]    = false
+default_run_options[:pty] = true
+
+# =============================================================================
+# TASKS
+# =============================================================================
+before "deploy:update", "deploy:jekyll"
+namespace :deploy do
+
+  [ :start, :stop, :restart, :finalize_update ].each do |t|
+    desc "#{t} task is a no-op with jekyll"
+    task t, :roles => :app do
+    end
+  end
+
+  desc "Run jekyll to regenerate site"
+  task :jekyll do
+    %x( rm -rf _site/* && jekyll )
+  end
+
+end
