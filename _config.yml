@@ -5,3 +5,4 @@ exclude:
   - Capfile
   - Gemfile
   - Gemfile.lock
+paginate: 10
