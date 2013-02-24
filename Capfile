@@ -3,7 +3,7 @@ load 'deploy'
 # =============================================================================
 # REQUIRED VARIABLES
 # =============================================================================
-set :application,       'hplogsdon.jekyll'
+set :application,       'hplogsdon.blog'
 set :repository,        '_site'
 set :domain,            'hplogsdon.com'
 set :scm,               :none
