@@ -8,7 +8,7 @@ categories:
 - Software
 - Source Code
 description: |
-  I _almost_ get tired of trying to get WINE to run on my OSX system...
+  I _almost_ get tired of trying to get WINE to run on my OSX system... 
 
 author_login: uxp
 author_email: uxp@bsdeviant.org

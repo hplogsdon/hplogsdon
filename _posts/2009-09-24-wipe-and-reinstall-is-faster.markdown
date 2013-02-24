@@ -1,6 +1,5 @@
 --- 
 tags: []
-
 wordpress_url: http://hplogsdon.com/?p=130
 published: true
 layout: post
@@ -11,6 +10,8 @@ author_login: uxp
 author_email: uxp@bsdeviant.org
 title: Wipe and Reinstall is faster
 comments: []
+description: |
+  I've moved this blog from one domain to another time again, partly because I didn't want to renew that domain name for another year, when I really didn't like it all that much. 
 
 author_url: http://hplogsdon.com
 status: publish
