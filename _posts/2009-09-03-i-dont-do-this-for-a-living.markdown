@@ -7,7 +7,7 @@ layout: post
 wordpress_id: 121
 categories: 
 - General
-excerpt: |
+description: |
   I don't do this for a living. None of it. I don't really want to make a living off it either... But I'm slowly getting closer to the point where I could. Pretty easily...
   
   I was hired by someone close to me to design, install and configure a website. Specifically an eCommerce site... Uh, I've designed a few WordPress themes, done some halfass PHP scripting, and a bit of clientside scripting. I'm not really the one that you should be going for, but they wanted me to do it, cause they knew it was gonna be cheap (I dunno how much this shit costs to do), and they knew it would be a good learning experience, and they could dictate and come back to me with suggestions and criticism. Thats not a bad thing, for either of us.
@@ -25,7 +25,7 @@ author: uxp
 I don't do this for a living. None of it. I don't really want to make a living off it either... But I'm slowly getting closer to the point where I could. Pretty easily...
 
 I was hired by someone close to me to design, install and configure a website. Specifically an eCommerce site... Uh, I've designed a few WordPress themes, done some halfass PHP scripting, and a bit of clientside scripting. I'm not really the one that you should be going for, but they wanted me to do it, cause they knew it was gonna be cheap (I dunno how much this shit costs to do), and they knew it would be a good learning experience, and they could dictate and come back to me with suggestions and criticism. Thats not a bad thing, for either of us.
-<a id="more"></a><a id="more-121"></a>
+
 So for the past month (yeah, it was slow going at first) I tossed a few open source solutions on my development server, played with them each for a day or two, and eventually decided on one. Some factors include development ease and configuration ease, admin/store admin usability, and what language it was in. I played with a couple Python/Django solutions, and though I eventually settled on a PHP solution, I would have rather used the Django solution. I sat down a little while before and wrote a Django blog application in under an hour one night. Django is fucking awesome, mostly because it comes with the backend pre configured. All you do is gotta get some of the logic and controller written out, and its done (except for that whole "display content/data" part).
 
 So I ended up with a PHP solution. Mostly because I could easily script in some custom actions, like emailing the owners, for simple stuff like Stock levels, and whatnot. Once they get all the data imported into it, the store will run itself. I've even got it set up with the postal service to basically print shipping labels. Someone needs to manually put the product in a box, tape it, and then stick it on their front porch to have it picked up... Maybe I should start selling stuff...

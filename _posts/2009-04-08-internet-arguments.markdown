@@ -9,10 +9,10 @@ layout: post
 wordpress_id: 90
 categories: 
 - General
-excerpt: |
+description: |
   I've been sick for the past couple of days. Somewhat ironic since I've basically quit smoking, except for the occasional habitual ones just before bed and after waking. Though it seems, or at least I feel, like I'm getting better faster then I have in the past. And thanks the the awesome fever, my head is all mucky and I'm under short temperment also.
   
-  Anyways this morning after I showered I was checking my email and saw some random conversation about <a href="http://twitter.com/">Twitter</a> going on in the local IRC channel. This newer person I have no idea who is outside of IRC said something, which basically repeated his/her opinion on other subjects:
+  Anyways this morning after I showered I was checking my email and saw some random conversation about Twitter going on in the local IRC channel. This newer person I have no idea who is outside of IRC said something, which basically repeated his/her opinion on other subjects:
 
 author_login: uxp
 author_email: uxp@bsdeviant.org
@@ -26,8 +26,8 @@ author: uxp
 ---
 I've been sick for the past couple of days. Somewhat ironic since I've basically quit smoking, except for the occasional habitual ones just before bed and after waking. Though it seems, or at least I feel, like I'm getting better faster then I have in the past. And thanks the the awesome fever, my head is all mucky and I'm under short temperment also.
 
-Anyways this morning after I showered I was checking my email and saw some random conversation about <a href="http://twitter.com/">Twitter</a> going on in the local IRC channel. This newer person I have no idea who is outside of IRC said something, which basically repeated his/her opinion on other subjects:
-<a id="more"></a><a id="more-90"></a>
+Anyways this morning after I showered I was checking my email and saw some random conversation about [Twitter](http://twitter.com/) going on in the local IRC channel. This newer person I have no idea who is outside of IRC said something, which basically repeated his/her opinion on other subjects:
+
 "what most people use it for is lame :( "
 then:
 "it is an effective way to pass around information, it's just that 90% of that communication is completely useless crap :\"

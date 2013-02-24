@@ -11,7 +11,8 @@ author_login: uxp
 author_email: uxp@bsdeviant.org
 title: FreeBSD + OS X Dualboot
 comments: []
-
+description: |
+  I decided to go ahead and try the dualboot of FreeBSD and OS X on my MacBookPro, Which was very silly of me. Here's basically what I have done so far:
 author_url: http://hplogsdon.com
 status: publish
 date: 2009-03-18 20:16:32 -06:00
@@ -21,7 +22,7 @@ I decided to go ahead and try the dualboot of FreeBSD and OS X on my MacBookPro,
 
 Here's basically what I have done so far:
 
-1 ) Install rEFIt. Its an alternate boot menu for EFI systems, like Intel-Macs. Get it <a href="http://refit.sourceforge.net/">here at SourceForge</a>.
+1 ) Install rEFIt. Its an alternate boot menu for EFI systems, like Intel-Macs. Get it [here at SourceForge](http://refit.sourceforge.net/)
 
 2 ) OS X likes to be on a GUID Partition Disk. FreeBSD doesn't. So I backup'd my OS X install by putting the MBP into FireWire Target Mode. Press T as the box chimes at boot. Then create a new image from the disk under Disk Utility. If you didn't have a second Mac, you could also boot from an external install (install minimal OS X onto a GUID Firewire or USB disk) or boot from the Leopard install DVD.
 
@@ -31,7 +32,7 @@ Here's basically what I have done so far:
 
 5 ) Reboot your machine a couple times and make sure you didn't fuck up.
 
-6 ) Pop in the FreeBSD disk. I used 7.1-RELEASE. Install FreeBSD the way you would like to. I'm assuming you are competent in installing it. No, don't ask me questions on how to install it. If you have questions though, feel free to find the answers here, in the <a href="http://www.freebsd.org/doc/en/books/handbook/">FreeBSD Handbook</a>. It has helped me tremendously in the years I have been using FreeBSD.
+6 ) Pop in the FreeBSD disk. I used 7.1-RELEASE. Install FreeBSD the way you would like to. I'm assuming you are competent in installing it. No, don't ask me questions on how to install it. If you have questions though, feel free to find the answers here, in the [FreeBSD Handbook](http://www.freebsd.org/doc/en/books/handbook/). It has helped me tremendously in the years I have been using FreeBSD.
 
 7 ) Repeat step 5. Twice. I'm a big fan of not reading directions until something fucks up. I learn better by poking and prodding, than reading something. Unless I know its going to destroy everything, or has the chance to, I take a wild stab at it and see if it works. So repeat step 5 again.
 
@@ -41,6 +42,6 @@ Which is pretty much it. It's harder to do than a windoes install, but its not m
 
 I'll update this as I do more. Or do more posts, or whatever.
 
-Also, I completely gave up on that WINE under OSX crap. Thats one of the reasons I tried to do a FreeBSD/KDE4 install. Also, I've recently become a fan of <a href="http://www.rockbox.org/">RockBox</a>. I put it on my 80GB iPod Video, and wouldn't mind a more organized method of transferring files to it. I've tried syncing with Amarok on my HP Laptop, but long story short, the USB ports are busted. They have lifted up from the logic/mother/mainboard, which is one of the reasons I quit using it. Also, that laptop has a bcm43xx wireless card. Fuck that thing. Wish I knew more about hardware compatibility it when I bought it. It is a P4 2.33Ghz, I think, but only about 512M ram. They left trackpad button is broken off as well... If I had a bunch of money to toss at shit, I would totally put a minimum of 2GB ram (if it can even handle it) and fix the trackpad button, and even see if I could get an Atheros WiFi card... but its also heavy and bulky. No widescreen either, but thats not a dealbreaker. It's great running fully upright next to my iMac with FreeBSD/KDE controlled with synergy. Use SSHFS to transfer files back and forth. Fantastic shit. Wish I would have set it up sooner.
+Also, I completely gave up on that WINE under OSX crap. Thats one of the reasons I tried to do a FreeBSD/KDE4 install. Also, I've recently become a fan of [RockBox](http://www.rockbox.org/). I put it on my 80GB iPod Video, and wouldn't mind a more organized method of transferring files to it. I've tried syncing with Amarok on my HP Laptop, but long story short, the USB ports are busted. They have lifted up from the logic/mother/mainboard, which is one of the reasons I quit using it. Also, that laptop has a bcm43xx wireless card. Fuck that thing. Wish I knew more about hardware compatibility it when I bought it. It is a P4 2.33Ghz, I think, but only about 512M ram. They left trackpad button is broken off as well... If I had a bunch of money to toss at shit, I would totally put a minimum of 2GB ram (if it can even handle it) and fix the trackpad button, and even see if I could get an Atheros WiFi card... but its also heavy and bulky. No widescreen either, but thats not a dealbreaker. It's great running fully upright next to my iMac with FreeBSD/KDE controlled with synergy. Use SSHFS to transfer files back and forth. Fantastic shit. Wish I would have set it up sooner.
 
 Welp, my MBP is still compiling KDE... Goddamned.... So far so good, but updates may or may not follow.

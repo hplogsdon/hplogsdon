@@ -12,6 +12,8 @@ author_email: uxp@bsdeviant.org
 title: Change from Wordpress to Drupal?
 comments: []
 
+description: |
+  As Im thinking about stuff, and writing blogposts, I am being reminded to update my WordPress install. I've kind of not liked WordPress for a while, but it works VERY well. No reason to change what isn't broken right? HAHA fuck that.
 author_url: http://hplogsdon.com
 status: publish
 date: 2009-03-18 20:23:03 -06:00

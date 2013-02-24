@@ -2,7 +2,7 @@
 tags: 
 - blogs
 - twitter
-- websitea
+- website
 wordpress_url: http://166.70.27.129/dev/hplogsdon/blog/?p=48
 published: true
 layout: post
@@ -14,7 +14,7 @@ author_login: uxp
 author_email: uxp@bsdeviant.org
 title: Blogging Twitter and self expression on the web.
 comments: []
-
+description: I signed up for twitter. O.o
 author_url: http://hplogsdon.com
 status: publish
 date: 2009-01-07 15:29:03 -07:00

@@ -13,6 +13,7 @@ author_email: uxp@bsdeviant.org
 title: iPhone publishing
 comments: []
 
+description: My girlfriend lost her phone on Wednesday... Well long story short we ended up buying two iPhones.
 author_url: http://hplogsdon.com
 status: publish
 date: 2008-12-19 12:50:26 -07:00

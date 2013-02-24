@@ -17,6 +17,7 @@ author_email: uxp@bsdeviant.org
 title: Objective-C
 comments: []
 
+description: I don't know why I added another language to my list of things I really want to learn but will never have enough time to devote to it.
 author_url: http://hplogsdon.com
 status: publish
 date: 2008-12-16 21:31:47 -07:00
