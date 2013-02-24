@@ -8,7 +8,7 @@ layout: post
 wordpress_id: 97
 categories: 
 - General
-excerpt: |
+description: |
   Well, I'm at work right now waiting for some stuff to go through the cleaner. I have two baskets ready to go, but the long weekend without running the cleaner has made it slow down quite a bit. It runs a little rough and the hydraulics get sticky after about 2 days, so Mondays are usually rough going, and the extra day has made it worse.
 
 author_login: uxp
@@ -22,7 +22,7 @@ date: 2009-05-26 11:40:07 -06:00
 author: uxp
 ---
 Well, I'm at work right now waiting for some stuff to go through the cleaner. I have two baskets ready to go, but the long weekend without running the cleaner has made it slow down quite a bit. It runs a little rough and the hydraulics get sticky after about 2 days, so Mondays are usually rough going, and the extra day has made it worse.
-<a id="more"></a><a id="more-97"></a>
+
 In other news, I recently had an issue with my FreeBSD server box. At one point I wanted to run it both as a secure server, to stuff like SVN, and a insecure server for normal web page slinging. Well, realistically, I mucked up some configurations. http on port 80 would drop outgoing connections. https on 443 worked great though, however my certificate was self signed, which, for my use, was plenty fine, but it was annoying to review and accept the sketchy cert every session. I spent some time trying to resolve the issue, but at the end of the day, I concluded that it would actually be simpler to just download a more recent release ISO, and upgrade the box from scratch. I wanted to update it anyways. So a couple days ago I wiped the disk and reinstalled the OS. One of the greatest things about BSD and Linux is the ability with partitions and slices to basically do a clean wipe and install, yet retain your entire home directory.
 
 On other technology failure of mine, the terabyte WD MyBook I bought a little over a year ago started to fail a while ago. It was developing a click of death, and would fail to spin up after heating up after doing massive read/write sessions. I broke the enclosure open and stuck a small fan on the case, which worked for a while, but I couldn't stand he noise. I was also flat out broke, so it took a while, but I managed to scrape together some cash over a few months and bought a new WD 7200rpm Caviar Black 1TB internal disk. The old one was the "green" version. NewEgg had mixed reviews on them, the greens, being kinda faulty. I dunno. It's still under warranty, so I'll probably send the disk in for RMA. But, my had 200 gigs free on my internal disk so I had to copy, swap disks on the enclosure controller, paste, and repeat a few times.

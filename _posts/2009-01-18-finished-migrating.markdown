@@ -14,6 +14,9 @@ author_email: uxp@bsdeviant.org
 title: Finished Migrating
 comments: []
 
+description: |
+  I finally finished migrating Wordpress, and I'm rather quite impressed
+
 author_url: http://hplogsdon.com
 status: publish
 date: 2009-01-18 00:45:33 -07:00

@@ -7,7 +7,7 @@ wordpress_id: 301
 categories: 
 - General
 description: |
-  I broke down and installed Ruby 1.9.1 on my MacBook Pro today. It was rather simple, but there was one thing that I've learned to do, that I didn't see anyone bother with.  If you drop down into Terminal.app and look at the ruby executable ```/usr/bin/ruby```
+  I broke down and installed Ruby 1.9.1 on my MacBook Pro today. It was rather simple, but there was one thing that I've learned to do, that I didn't see anyone bother with.  If you drop down into Terminal.app and look at the ruby executable /usr/bin/ruby ...
 author_login: uxp
 author_email: uxp@bsdeviant.org
 title: Ruby1.9 and 1.8 side by side on OS X SL
@@ -29,7 +29,7 @@ So one tutorial I came across when googling , namely [this one](http://cardarell
 
 Dont do it.
 
-Instead, do something a little less conventional (for *nix), and install it as a specific version inside the framework.
+Instead, do something a little less conventional (for \*nix), and install it as a specific version inside the framework.
 
 	curl -O ftp://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.1-p376.tar.gz
 	tar xzvf ruby-1.9.1-p376.tar.gz

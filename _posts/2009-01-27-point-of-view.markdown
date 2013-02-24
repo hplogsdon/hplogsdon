@@ -14,6 +14,8 @@ author_email: uxp@bsdeviant.org
 title: Point of View
 comments: []
 
+description: |
+  This blog might turn into an essay and opinion paper about Zen and The Art of Motorcycle Maintenance. After paying just a little bit more attention to the audiobook I noticed that there are chapter breaks.
 author_url: http://hplogsdon.com
 status: publish
 date: 2009-01-27 12:45:54 -07:00
@@ -27,7 +29,7 @@ Anyways, I had a friend Alex in elementary school. His mom remarried when we wer
 
 That's about it. This post didn't have much of a point... no pun intended. srsly.
 
-EDIT: Oh fuck. check this out from Wikipedia. <a href="http://en.wikipedia.org/wiki/The_Point!">The Point!</a> is a fable by American songwriter and musician Harry Nilsson about a boy named Oblio, the only round-headed person in The Pointed Village, where by law everyone and everything had to have a point.
+EDIT: Oh fuck. check this out from Wikipedia. [The Point!](http://en.wikipedia.org/wiki/The_Point!) is a fable by American songwriter and musician Harry Nilsson about a boy named Oblio, the only round-headed person in The Pointed Village, where by law everyone and everything had to have a point.
 
 "I was on acid and I looked at the trees and I realized that they all came to points, and the little branches came to points, and the houses came to point. I thought, 'Oh! Everything has a point, and if it doesn't, then there's a point to it.'" -- Harry Nilsson[1]
 

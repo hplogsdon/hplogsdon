@@ -7,11 +7,9 @@ layout: post
 wordpress_id: 119
 categories: 
 - General
-excerpt: |
+description: |
   I always forget that physical access is akin to root access on a box.
   
-  A couple weeks ago a friend dropped off an old laptop at my house. He said he was unable to get into the OS because he didn't have and user passwords, or names. It was running an older Fedora release, which I neither remember, or care to remember what version. Funny thing is, I couldn't get Ubuntu to boot off the LiveCD either. Ubuntu is generally my goto for a cheap (free) simple OS to run really quick. Probably because I usually have a new disc sitting around at all times.
-
 author_login: uxp
 author_email: uxp@bsdeviant.org
 title: Physical Access is Root Access
@@ -25,8 +23,8 @@ author: uxp
 I always forget that physical access is akin to root access on a box.
 
 A couple weeks ago a friend dropped off an old laptop at my house. He said he was unable to get into the OS because he didn't have and user passwords, or names. It was running an older Fedora release, which I neither remember, or care to remember what version. Funny thing is, I couldn't get Ubuntu to boot off the LiveCD either. Ubuntu is generally my goto for a cheap (free) simple OS to run really quick. Probably because I usually have a new disc sitting around at all times.
-<a id="more"></a><a id="more-119"></a>
-Well, Since Ubuntu didn't boot, I grabbed a Fedora Core 10 live disc which actually booted just fine in under a half hour. Did I mention this was an old laptop? After spending maybe an hour trying to get anything to load in order to get to the HDD, I gave up. There was little on the disc he needed, and it was only 20GB, so I shut it down and tried something else. The second, which really should be my first goto live OS, <a href="http://bsdeviant.org/">BSDeviant</a>. This is an amazing OS I have the pleasure of working with. I actually host the site, though I don't work on the project. No one does anymore. It's rather dead unfortunately.
+
+Well, Since Ubuntu didn't boot, I grabbed a Fedora Core 10 live disc which actually booted just fine in under a half hour. Did I mention this was an old laptop? After spending maybe an hour trying to get anything to load in order to get to the HDD, I gave up. There was little on the disc he needed, and it was only 20GB, so I shut it down and tried something else. The second, which really should be my first goto live OS, [BSDeviant](http://bsdeviant.org/). This is an amazing OS I have the pleasure of working with. I actually host the site, though I don't work on the project. No one does anymore. It's rather dead unfortunately.
 
 Well after a quick boot into BSDeviant, I was able to mount the HDD and edit the /etc/passwd and /etc/shadow files to completely remove the user password. I could then boot into Fedora and make a new password for the user of my specification.
 

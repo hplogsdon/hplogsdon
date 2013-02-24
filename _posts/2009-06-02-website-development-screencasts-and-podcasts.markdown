@@ -16,7 +16,7 @@ author_login: uxp
 author_email: uxp@bsdeviant.org
 title: Website Development Screencasts and Podcasts
 comments: []
-
+description: Why do developer screencasts and podcasts favor MAMP over OS X's built in Apache? It makes no sense.
 author_url: http://hplogsdon.com
 status: publish
 date: 2009-06-02 10:32:26 -06:00

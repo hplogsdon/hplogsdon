@@ -11,7 +11,7 @@ wordpress_id: 109
 categories: 
 - Software
 - Web Design
-excerpt: |
+description: |
   I'm gonna go ahead and write a second blog post today. Got shit else to do, really (actually thats a lie, there's always something).
 
 author_login: uxp
@@ -25,7 +25,7 @@ date: 2009-06-04 00:11:40 -06:00
 author: uxp
 ---
 I'm gonna go ahead and write a second blog post today. Got shit else to do, really (actually thats a lie, there's always something).
-<a id="more"></a><a id="more-109"></a>
+
 A few years ago I was a big fan of World of Warcraft. It was a fun game, but I never really got involved in a guild. That was a major disappointment. By the time I hit 70 (I started playing a couple months before Burning Crusade), everyone on the server I was on had already hit 70 and were rolling around in their cool epics. I was never able to get a raid slot due to me being a fairly undergeared tank. By the time I did get a pretty decent equipment setup, It got boring. PVP sucked, and the game really had nothing to offer on PVE, cause everyone is a fucking babby. So I rolled a new character, a warlock, and he hit 70 really damn quick (lol overpowered) and then I started to raid, and was able to fit him out entirely on kara and crafted purps. Well, It then got boring again. So I quit, for maybe 5 months, then restarted for 3 months, and then finally quit.
 
 Well, MMOs are goddamned sweet. I've always liked online multiplayer games. Besides some weird RPGs, Final Fantasy XI (lol Macs/Linux), to be exact, there hasn't been much I have wanted to play. Sometime before I did quit playing WoW, CCP, the company behind EVE Online decided to team with Cedega and release a Linux and Mac client. I downloaded it, and played it for a couple days, but due to the game being absolutely horrible, I never extended beyond the trial. There were some loose friends that played, and I never actually played with them, which is probably why I hated it. Over time, more friends started to play, and they all happened to be in a major PVP Alliance. Well, I became better friends with one of them, and he kept on telling me to play, but I didn't really want to do another zombie grind to end-game again (did I tell you I maxed enchanting/tailoring, mining/blacksmith AND Jewelcrafting/Mining on 3 seperate WoW characters?). I don't know what happened, but I ended up downloading EVE, and created a new trial account. Before I was a week into the game, I already was living in 0.0 space, in said major alliance, and happily blowing up other peoples ships in my little frigate. It was awesome.

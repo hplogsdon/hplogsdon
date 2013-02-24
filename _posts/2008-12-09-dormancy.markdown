@@ -16,6 +16,7 @@ author_email: uxp@bsdeviant.org
 title: Dormancy
 comments: []
 
+description: Good timing I guess. Its the morning right now, and I decided to look at the site to see if there was anything that I didn't like. All in all it looks good. 
 author_url: http://hplogsdon.com
 status: publish
 date: 2008-12-09 08:43:41 -07:00
