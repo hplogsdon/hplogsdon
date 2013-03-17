@@ -4,7 +4,7 @@ layout: default
 <div id="main-column">
 	<div class="post-meta">
 		<ul>
-			<li><time datetime="{{ post.date }}" pubdate data-updated="true">{{ post.date | date_to_long_string }}</time></li>
+			<li><time datetime="{{ post.date }}" pubdate data-updated="true">{{ post.date | date: "%d %B %Y" }}</time></li>
 			<li>Section: <b>{{ page.categories | array_to_sentence_words }}</b></li>
 		</ul>
 	</div>

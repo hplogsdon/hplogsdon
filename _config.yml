@@ -2,6 +2,7 @@
 markdown: rdiscount
 permalink: /:title
 exclude:
+  - Rakefile
   - Capfile
   - Gemfile
   - Gemfile.lock

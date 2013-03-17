@@ -135,7 +135,7 @@ img {
 }
 
 .post {
-	margin:0 0 50px 0;
+	margin:0 0 75px 0;
 	width:500px;
 	float:left;
 }
@@ -239,3 +239,25 @@ img {
 .fix {
 	display: block;
 }
+
+#pagination-index {
+	float: right;
+}
+#pagination-index .previous {
+	float: left;
+	margin: 0 10px 0 0;
+	display: inline-block;
+}
+#pagination-index .next {
+	float: right;
+	margin: 0 0 0 10px;
+	display: inline-block;
+}
+ul.pages {
+	display: inline-block;
+}
+ul.pages li.page {
+	display: inline;
+	padding: 0 10px 0 0;
+}
+

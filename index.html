@@ -6,7 +6,7 @@ title: HPLogsdon
 	{% for post in paginator.posts %}
 		<div class="post-meta">
 			<ul>
-				<li><time datetime="{{ post.date }}" pubdate data-updated="true">{{ post.date | date_to_long_string }}</time></li>
+				<li><time datetime="{{ post.date }}" pubdate data-updated="true">{{ post.date | date: "%B %d, %Y" }}</time></li>
 				<li>Section: <b>{{ post.categories | array_to_sentence_words }}</b></li>
 				<li class="perma"><a href="{{ post.url }}">Permalink</a></li>
 			</ul>
