@@ -31,7 +31,7 @@ Well, the next step is what? Try for a serial installation? This is where things
 
 So, I started poking around with the installer. In the rpi\_installer-08-19-12.zip archive there are some unsurprising files, like `kernel.img`, `start.elf` and `loader.bin`, typical linux boot shit (sans vzimage and initrd). But, nothing too revealing except for the textfile `cmdline.txt`. In here we have a long ass line of arguments to what I am assuming is the bootloader (which I'm unsure as to what that is exactly, if it's completely custom from [here](https://github.com/raspberrypi), or if it's something like [uBoot](http://www.denx.de/wiki/U-Boot/), nether of which I have any experience with). Three of these are dealing with tty settings: 
 
-{% highlight shell %}
+{% highlight sh %}
 console=ttyAMA0,115200 kgdboc=ttyAMA0,115200 console=tty1
 {% endhighlight %}
 
@@ -45,7 +45,7 @@ So, to recap, I had my Raspberry Pi running an installer and outputting to the s
 
 And, I guess a fair bit of warning, I'm not exactly sure what this command does outside of changing the tty flow control from hardware to software, but to solve my particular dilemma, running this command fixes everything:
 
-{% highlight shell %}
+{% highlight sh %}
 stty -f /dev/tty.usbserial-A182342O -crtscts -ixon -ixoff
 {% endhighlight %}
 

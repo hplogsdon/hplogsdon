@@ -29,7 +29,7 @@ I'm rambling a bit here, but what does this have to do with the shells? Well, RV
 
 Installing new Ruby versions is really easy, and there is no difference than the README states. It's actually loading rbenv that changes a bit. The README states to add a couple lines to your .bash_profile initialization script. Since we don't use Bash, we'll add our commands to .cshrc, and do some of the initialization "manually". There isn't a lot that goes on behind the scenes, so the manual initialization is all of one more line than doing it automatically. Here's what the relevant lines in my .cshrc state:
 
-{% highlight shell %}
+{% highlight sh %}
 set path = ( $HOME/.rbenv/shims $HOME/.rbenv/bin $HOME/bin /usr/local/sbin /usr/local/bin /usr/sbin /usr/bin /sbin /bin /usr/games )
 rbenv rehash
 {% endhighlight %}
