@@ -1,7 +1,5 @@
 source :rubygems
 
-gem 'rake'
-gem 'jekyll'
-gem 'rdiscount'
-
-gem 'capistrano'
+gem 'rake', '~> 10.0.4'
+gem 'jekyll', '~> 1.0.0'
+gem 'rdiscount', '~> 2.0.7.2'
