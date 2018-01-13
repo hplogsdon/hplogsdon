@@ -26,7 +26,7 @@ Over the past 10 years, I've helped start and run the business I'm in today, and
 
 1. **Verbal agreements are worse than no agreement.**
 
-    If there is anything that working with other businesses and people has taught me, it's that verbal agreements are designed to be broken somehow. Not that agreeing with others is a bad thing, its that they are not reliable. Trying to save your business by agreeing with another party that they will or will not do something is like trying to weather a flood by hanging onto an inflated party balloon. If an agreement is important enough for you, you need to make it enticing for the other party, and then <em>write the agreement down, </em>so both parties know that there will be consequences if it is broken.</p>
+    If there is anything that working with other businesses and people has taught me, it's that verbal agreements are designed to be broken somehow. Not that agreeing with others is a bad thing, its that they are not reliable. Trying to save your business by agreeing with another party that they will or will not do something is like trying to weather a flood by hanging onto an inflated party balloon. If an agreement is important enough for you, you need to make it enticing for the other party, and then <em>write the agreement down,</em> so both parties know that there will be consequences if it is broken.
 
 
 2. **Self employment means spending 3 days out of the week collecting the money you made the other 2 days of the week.**
