@@ -47,7 +47,7 @@ Once Rails is installed, we won't have a lot to configure. It all pretty much wo
 	=> Call with -d to detach
 	=> Ctrl-C to shutdown server
 
-and check to see that its running on http://$IPADDRESS:3000/ And click on the link "About your application’s environment" which will run a bit of rails code, which is just enough to either give indication of no problem, or an error. On this server, I must have missed the configuration to install sqlite3-ruby from ports. I'm getting a sqlite3-ruby not found error. So I'll run:
+and check to see that its running on http://$IPADDRESS:3000/ And click on the link "About your application's environment" which will run a bit of rails code, which is just enough to either give indication of no problem, or an error. On this server, I must have missed the configuration to install sqlite3-ruby from ports. I'm getting a sqlite3-ruby not found error. So I'll run:
 
 	$ cd /usr/ports/databases/rubygem-sqlite3
 	$ sudo make install clean
