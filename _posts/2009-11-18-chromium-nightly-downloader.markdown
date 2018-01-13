@@ -21,7 +21,7 @@ status: publish
 date: 2009-11-18 23:10:14 -07:00
 author: uxp
 ---
-The past few posts have been a "I use this, but I extended its default functionality with this:" posts... Well this one is no different. I have slowly become fed up with Safari. Every update seems to make it run slower. I've noticed as the day wears on, it can take up to 30 seconds to load a new tab. WTF is that shit. So the next alternative is.... no, I don't like FireFox. I even use a non-modified version for my browsing (no extensions) and it seems bulky and slow. Safari was really snappy a couple months ago.
+The past few posts have been a "I use this, but I extended its default functionality with this:" posts... Well this one is no different. I have slowly become fed up with Safari. Every update seems to make it run slower. I've noticed as the day wears on, it can take up to 30 seconds to load a new tab. WTF is that shit. So the next alternative is.... no, I don't like FireFox. I even use a non-modified version for my browsing (no extensions) and it seems bulky and slow. Safari was really snappy a couple months ago.
 
 So Chromium has made some awesome strides as of late, and the nightly builds are pretty awesome. Super stable, incredibly, and fast all around. The only problem with the (almost hourly) builds is there are a lot of them, and I don't want to be downloading a 20 meg file in order to start my day and night. So Script it right? Yes.
 
