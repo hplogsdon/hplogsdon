@@ -1,9 +1,26 @@
 ---
-markdown: rdiscount
+markdown: kramdown
+
 permalink: /:title
+
+plugins:
+  - jekyll-paginate
+
+defaults:
+  - scope:
+      path: ''
+      type: posts
+    values:
+      layout: post
+
 exclude:
   - Rakefile
-  - Capfile
   - Gemfile
   - Gemfile.lock
+
 paginate: 10
+
+sass:
+  style: :compressed
+
+

@@ -14,13 +14,13 @@ author_login: uxp
 author_email: uxp@bsdeviant.org
 title: Shared Hosting
 comments: []
-
 description: So I only have one hosting provider for all my websites. I took full advantage of one of those companies that oversell their web hosting services and tossed a bunch of sites all up on one account. I haven't had a problem with it up until now.
 author_url: http://hplogsdon.com
 status: publish
 date: 2008-12-24 08:45:53 -07:00
 author: uxp
 ---
+
 So I only have one hosting provider for all my websites. I took full advantage of one of those companies that oversell their web hosting services and tossed a bunch of sites all up on one account. I haven't had a problem with it up until now.
 
 Unfortunately it's a shared server. Realistcally, that doesn't matter much. Some day I would like to have my own Colo running a couple of virtual machines, one for webhosting, one for whatever, and so on, but for now, shared is cheap and works great.

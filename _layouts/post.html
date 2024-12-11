@@ -2,16 +2,16 @@
 layout: default
 ---
 <div id="main-column">
-	<div class="post-meta">
-		<ul>
-			<li><time datetime="{{ post.date }}" pubdate data-updated="true">{{ post.date | date: "%d %B %Y" }}</time></li>
-			<li>Section: <b>{{ page.categories | array_to_sentence_words }}</b></li>
-		</ul>
-	</div>
-	<div id="post" class="post">
-		<h2><a href="{{ page.link }}" title="{{ page.title }}">{{ page.title }}</a></h2>
-		<div class="entry">
-			<p>{{ content }}</p>
-		</div>
-	</div>
+  <div class="post-meta">
+    <ul>
+      <li><time datetime="{{ post.date }}" itemprop="datePublished" pubdate data-updated="true" title="{{ post.date }}">{{ post.date | date: "%d %B %Y" }}</time></li>
+      <li>Section: <b>{{ page.categories | array_to_sentence_words }}</b></li>
+    </ul>
+  </div>
+  <div id="post" class="post">
+    <h2><a href="{{ page.link }}" title="{{ page.title }}">{{ page.title }}</a></h2>
+    <div class="entry">
+      <p>{{ content }}</p>
+    </div>
+  </div>
 </div>

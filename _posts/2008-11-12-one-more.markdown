@@ -15,7 +15,6 @@ author_login: uxp
 author_email: uxp@bsdeviant.org
 title: One more....
 comments: []
-
 author_url: http://hplogsdon.com
 status: publish
 date: 2008-11-12 21:17:06 -07:00
