@@ -21,7 +21,7 @@
     }
   },
   // Use 'forwardPorts' to make a list of ports inside the container available locally.
-  "forwardPorts": [4000],
+  "forwardPorts": [4000,35729],
 
   // setup and provisioning
   "postCreateCommand": "bash ${containerWorkspaceFolder}/.devcontainer/post-create.sh",
