@@ -7,7 +7,7 @@ task :new do
   now = Time.now
   title = ENV['TITLE']
   slug = title.downcase.strip.
-    gsub(/['`"]/, '').                    # remove apostrpohies and quotes
+    gsub(/['`"]/, '').                    # remove apostrophes and quotes
     gsub(/\s*@\s*/, " at ").              # "@" => " at "
     gsub(/\s*&\s*/, " and ").             # "&" => " and "
     gsub(/\s*[^A-Za-z0-9\.\-]\s*/, '-').  # whitespace

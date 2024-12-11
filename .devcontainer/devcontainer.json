@@ -20,8 +20,8 @@
       "version": "latest"
     }
   },
-  // Use 'forwardPorts' to make a list of ports inside the container available locally.
-  "forwardPorts": [4000,35729],
+
+  "appPort": [4000,35729],
 
   // setup and provisioning
   "postCreateCommand": "bash ${containerWorkspaceFolder}/.devcontainer/post-create.sh",
@@ -31,6 +31,8 @@
       "settings": {
       },
       "plugins": [
+        "org.jetbrains.plugins.ruby",
+	    "com.intellij.lang.liquid",
         "org.jetbrains.plugins.github",
         "org.jetbrains.plugins.gitlab"
       ],
@@ -43,4 +45,5 @@
   },
   // Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
   // "remoteUser": "root"
+  "remoteUser": "vscode"
 }
