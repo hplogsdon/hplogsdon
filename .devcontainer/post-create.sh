@@ -1,12 +1,19 @@
 #!/usr/bin/env bash
 set -eu -o pipefail
 
-git config --global --add safe.directory .
-
 # Install the version of Ruby specified in .ruby-version.
 if [ -f .ruby-version ]; then
-    rvm install -s ruby-$(cat .ruby-version)
-    rvm use $(cat .ruby-version)
+    if command -v rvm 2>&1 >/dev/null
+    then
+        rvm install $(< .ruby-version)
+        rvm use $(< .ruby-version)
+    fi
+    if command -v rbenv 2>&1 >/dev/null
+    then
+        rbenv install $(< .ruby-version)
+        rbenv local $(< .ruby-version)
+    fi
+
 fi
 
 # Install the version of Bundler.
@@ -20,4 +27,9 @@ if [ -f Gemfile ]; then
     bundle install
 fi
 
-bundle exec jekyll serve --force-polling --baseurl=''
+#bundle exec jekyll serve --force-polling --baseurl=''
+
+# Mark workspace directory as safe for git
+git config --global --add safe.directory $(realpath .)
+
+echo "DONE"

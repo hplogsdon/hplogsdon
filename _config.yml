@@ -1,10 +1,27 @@
 ---
+source: .
+destination: ./_site
+plugins_dir: _plugins # takes an array of strings and loads plugins in that order
+layouts_dir: _layouts
+data_dir: _data
+includes_dir: _includes
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+collections:
+  posts:
+    output: true
+
 markdown: kramdown
 
 permalink: /:title
 
 plugins:
   - jekyll-paginate
+
+url: "https://blog.hplogsdon.com"
 
 defaults:
   - scope:
@@ -14,13 +31,19 @@ defaults:
       layout: post
 
 exclude:
+  - README.md
   - Rakefile
   - Gemfile
   - Gemfile.lock
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
 
 paginate: 10
-
-sass:
-  style: :compressed
-
 
