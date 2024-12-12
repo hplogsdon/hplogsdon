@@ -16,12 +16,16 @@ collections:
 
 markdown: kramdown
 
-permalink: /:title
+permalink: /:title/
 
 plugins:
   - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 url: "https://blog.hplogsdon.com"
+color-scheme: auto
+title: HPLogsdon
 
 defaults:
   - scope:
@@ -44,6 +48,10 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
 
-
 paginate: 10
 
+# https://github.com/github/pages-gem/issues/399#issuecomment-301827749
+# When running locally, we run into the following error —
+# GitHub Metadata: No GitHub API authentication could be found. Some fields may be missing or have incorrect data.
+# adding this avoids it
+github: [metadata]
