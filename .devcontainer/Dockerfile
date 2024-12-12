@@ -1,6 +1,6 @@
-# [Choice] Debian OS version (use 3.2-bookworm, or 3.2-bullseye on local arm64/Apple Silicon): 3.2-bookworm, 3.2-bullseye, 3.2-buster
-ARG VARIANT=3.2-bookworm
-FROM mcr.microsoft.com/devcontainers/ruby:${VARIANT}
+# [Choice] Debian OS version (use bookworm, or bullseye on local arm64/Apple Silicon): 3.2-bookworm, 3.2-bullseye, 3.2-buster
+ARG VARIANT=bookworm
+FROM mcr.microsoft.com/devcontainers/base:${VARIANT}
 
 ## set current user to `root`
 USER root

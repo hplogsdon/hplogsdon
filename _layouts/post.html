@@ -1,17 +1,14 @@
 ---
 layout: default
 ---
-<div id="main-column">
-  <div class="post-meta">
-    <ul>
-      <li><time datetime="{{ post.date }}" itemprop="datePublished" pubdate data-updated="true" title="{{ post.date }}">{{ post.date | date: "%d %B %Y" }}</time></li>
-      <li>Section: <b>{{ page.categories | array_to_sentence_words }}</b></li>
-    </ul>
-  </div>
-  <div id="post" class="post">
-    <h2><a href="{{ page.link }}" title="{{ page.title }}">{{ page.title }}</a></h2>
-    <div class="entry">
-      <p>{{ content }}</p>
-    </div>
-  </div>
-</div>
+
+<small>{{ page.date | date: "%-d %B %Y" }}</small>
+<h1>{{ page.title }}</h1>
+
+<p class="view">by {{ page.author | default: site.author }}</p>
+
+{{content}}
+
+{% if page.tags %}
+<small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
+{% endif %}

@@ -1,43 +1,63 @@
+{% case site.color-scheme %}
+{% when "", nil, false, 0, empty %}
+{% assign ColorScheme = "auto" %}
+{% else %}
+{% assign ColorScheme = site.color-scheme %}
+{% endcase %}
+
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8"/>
-    <title>{{ page.title | replace: '&nbsp;', ' ' | escape }}</title>
-    {% if page.description %}<meta name="description" content="{{ page.description | escape }}"/>{% endif %}
-    <meta name="author" lang="en" content="Howard P. Logsdon"/>
-    <meta content="initial-scale=1.0" name="viewport"/>
-    <link rel="canonical" href="https://blog.hplogsdon.com/"/>
+<html lang="{{ site.lang | default: "en-US" }}">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="icon" href="/favicon.ico"/>
-    <link rel="stylesheet" type="text/css" href="/stylesheets/default.css"/>
-    {% if page.styles %}<style type="text/css" media="screen">{{ page.styles }}</style>{% endif %}
-  </head>
+    {% seo %}
+    <link rel="stylesheet" href="{{ "/assets/stylesheets/colors-ColorScheme.css?v=" | replace: "ColorScheme", ColorScheme | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="{{ "/assets/stylesheets/style.css?v=" | append: site.github.build_revision | relative_url }}">
 
-  <body>
-    <div id="wrapper">
-      <header id="masthead" class="fix">
-	<h1><a href="/">HPLogsdon</a></h1>
-	<div class="clear fix">
-	  <p><em>Information contained within is probably wrong</em></p>
-	</div>
-      </header>
+    <link rel="preload" href="{{site.logo | relative_url}}" as="image">
+    {% include header.html %}
+</head>
+<body>
+<div class="wrapper">
+    <div class="sidebar">
+        <header>
+            {% if site.logo %}
+            <img class="img-circle" src="{{site.logo | relative_url}}" alt="Logo">
+            {% endif %}
 
-      <div id="filler" class="fix">
+            {% if site.blank_title %}
+            <h1>{{ site.title | default: site.github.repository_name }}</h1>
+            {% else %}
+            <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+            {% endif %}
+
+            {% if site.email %}
+            <p class="addr"><i class="fa-regular fa-envelope"></i>&nbsp;{{ site.email }}</p>
+            {% endif %}
+
+            <p>{{ site.description | default: site.github.project_tagline }}</p>
+
+            {% include sidebar.html %}
+
+        </header>
+
+        {% include links-mobile.html %}
+
+        <div class="sidebar-footer">
+            {%- include footer.html -%}
+        </div>
+    </div>
+    <section>
 
         {{ content }}
 
-      </div>
-    </div>
-    <div id="footer" class="fix">
-      <div id="footer-container">
-	<p class="left">
-	  Copyright &copy; <a href="/">HPLogsdon</a>
-	</p>
-	<p class="right">
-	  Original <a href="http://www.iamtimothylong.com/theophilus">Theophilus</a> Wordpress theme by <a href="http://www.iamtimothylong.com">Timothy Long</a>
-	</p>
-      </div>
-    </div>
-
-  </body>
+    </section>
+    <footer>
+        {%- include footer.html -%}
+    </footer>
+</div>
+<script src="{{ "/assets/javascripts/scale.fix.js" | relative_url }}"></script>
+</body>
 </html>

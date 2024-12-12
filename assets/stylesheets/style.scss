@@ -1,0 +1,131 @@
+---
+---
+
+@import "hplogsdon";
+
+.img-circle {
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	margin-bottom: 10px;
+}
+
+.overlay {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0, 0, 0, 0.7);
+	transition: opacity 500ms;
+	visibility: hidden;
+	opacity: 0;
+}
+
+.overlay:target {
+	visibility: visible;
+	opacity: 1;
+}
+
+.popup {
+	margin: 70px auto;
+	padding: 20px;
+	background: #fff;
+	border-radius: 5px;
+	width: 30%;
+	position: relative;
+	transition: all 1s ease-in-out;
+}
+
+.popup .close {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	transition: all 200ms;
+	font-size: 30px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #333;
+}
+.popup .close:hover {
+	color: #06D85F;
+}
+
+.popup .content {
+	padding-right: 20px;
+	max-height: 30%;
+	overflow: auto;
+	font: 15px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+@media screen and (max-width: 700px){
+	.box{
+		width: 70%;
+	}
+	.popup{
+		width: 70%;
+	}
+}
+
+#pagination-index {
+	font-size: 8pt;
+	line-height: 1;
+	font-weight: 400;
+	font-family: 'Open Sans', 'Source Sans Pro', Roboto, 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', 'Myriad Pro', 'Segoe UI', Myriad, Helvetica, 'Lucida Grande', 'DejaVu Sans Condensed', 'Liberation Sans', 'Nimbus Sans L', Tahoma, Geneva, Arial, sans-serif;
+	-webkit-text-size-adjust: 100%;
+	margin: 1em auto;
+	text-align: center;
+	transition: font-size .2s ease-in-out;
+}
+#pagination-index ul {
+	list-style-type: none;
+	display: inline;
+	font-size: 100%;
+	margin: 0;
+	padding: .5em;
+}
+#pagination-index ul li {
+	display: inline-block;
+	font-size: 100%;
+	width: auto;
+	border-radius: 3px;
+}
+#pagination-index > p {
+	display: inline;
+}
+#pagination-index > p.previous,
+#pagination-index > p.next {
+	font-size: 100%;
+}
+#pagination-index a {
+	font-size: 100%;
+	padding: .5em;
+}
+#pagination-index a:focus,
+#pagination-index a:hover {
+}
+#pagination-index li span.current-page {
+	background: rgba(0,0,0,.1)
+}
+/* Disabled & Hidden Styles */
+#pagination-index .disabled,
+#pagination-index [hidden],
+#pagination-index [disabled] {
+	opacity: .5;
+	pointer-events: none;
+}
+@media (min-width: 500px) {
+	#pagination-index {
+		font-size: 10pt;
+	}
+}
+@media (min-width: 700px) {
+	#pagination-index {
+		font-size: 12pt;
+	}
+}
+@media (min-width: 900px) {
+	#pagination-index {
+		font-size: 14pt;
+	}
+}
