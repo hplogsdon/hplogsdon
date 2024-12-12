@@ -1,43 +1,47 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta charset="UTF-8"/>
     <title>{{ page.title | replace: '&nbsp;', ' ' | escape }}</title>
-    {% if page.description %}<meta name="description" content="{{ page.description | escape }}"/>{% endif %}
+    {% if page.description %}
+    <meta name="description" content="{{ page.description | escape }}"/>
+    {% endif %}
     <meta name="author" lang="en" content="Howard P. Logsdon"/>
     <meta content="initial-scale=1.0" name="viewport"/>
-    <link rel="canonical" href="https://blog.hplogsdon.com/"/>
+    <link rel="canonical" href="{{ page.absolute_url }}"/>
 
     <link rel="icon" href="/favicon.ico"/>
     <link rel="stylesheet" type="text/css" href="/stylesheets/default.css"/>
-    {% if page.styles %}<style type="text/css" media="screen">{{ page.styles }}</style>{% endif %}
-  </head>
+    {% if page.styles %}
+    <style type="text/css" media="screen">{{ page.styles }}</style>
+    {% endif %}
+</head>
+<body>
+<div id="wrapper">
+    <header id="masthead" class="fix">
+        <h1><a href="/">HPLogsdon</a></h1>
+        <div class="clear fix">
+            <p><em>Information contained within is probably wrong</em></p>
+        </div>
+    </header>
 
-  <body>
-    <div id="wrapper">
-      <header id="masthead" class="fix">
-	<h1><a href="/">HPLogsdon</a></h1>
-	<div class="clear fix">
-	  <p><em>Information contained within is probably wrong</em></p>
-	</div>
-      </header>
-
-      <div id="filler" class="fix">
+    <div id="filler" class="fix">
 
         {{ content }}
 
-      </div>
     </div>
-    <div id="footer" class="fix">
-      <div id="footer-container">
-	<p class="left">
-	  Copyright &copy; <a href="/">HPLogsdon</a>
-	</p>
-	<p class="right">
-	  Original <a href="http://www.iamtimothylong.com/theophilus">Theophilus</a> Wordpress theme by <a href="http://www.iamtimothylong.com">Timothy Long</a>
-	</p>
-      </div>
+</div>
+<div id="footer" class="fix">
+    <div id="footer-container">
+        <p class="left">
+            Copyright &copy; <a href="/">HPLogsdon</a>
+        </p>
+        <p class="right">
+            Original <a href="http://www.iamtimothylong.com/theophilus">Theophilus</a> Wordpress theme by <a
+                href="http://www.iamtimothylong.com">Timothy Long</a>
+        </p>
     </div>
+</div>
 
-  </body>
+</body>
 </html>
