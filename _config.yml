@@ -29,7 +29,7 @@ title: HPLogsdon
 
 defaults:
   - scope:
-      path: ''
+      path: '_posts'
       type: posts
     values:
       layout: post
@@ -55,3 +55,13 @@ paginate: 10
 # GitHub Metadata: No GitHub API authentication could be found. Some fields may be missing or have incorrect data.
 # adding this avoids it
 github: [metadata]
+
+sidebar:
+  - link: /about
+    name: About
+  - link: https://github.com/hplogsdon
+    icon: fa-brands fa-github
+    name: Github
+  - link: https://bsky.app/profile/hplogsdon.com
+    icon: fa-brands fa-bluesky
+    name: Bluesky
