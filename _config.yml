@@ -56,3 +56,12 @@ paginate: 10
 # adding this avoids it
 github: [metadata]
 
+sidebar:
+  - link: /about
+    name: About
+  - link: https://github.com/hplogsdon
+    icon: fa-brands fa-github
+    name: Github
+  - link: https://bsky.app/profile/hplogsdon.com
+    icon: fa-brands fa-bluesky
+    name: Bluesky
