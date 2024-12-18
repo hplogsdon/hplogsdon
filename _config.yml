@@ -60,8 +60,11 @@ sidebar:
   - link: /about
     name: About
   - link: https://github.com/hplogsdon
-    icon: fa-brands fa-github
+    icon: fa-regular fa-brands fa-github
     name: Github
   - link: https://bsky.app/profile/hplogsdon.com
-    icon: fa-brands fa-bluesky
+    icon: fa-regular fa-brands fa-bluesky
     name: Bluesky
+  - link: /atom.xml
+    icon: fa-regular fa-rss
+    name: RSS

@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-set -eu -o pipefail
+set -euxo pipefail
 
 if ! command -v rbenv 2>&1 >/dev/null
 then
@@ -41,8 +41,5 @@ if [ -f Gemfile ]; then
 fi
 
 #bundle exec jekyll serve --force-polling --baseurl=''
-
-# Mark workspace directory as safe for git
-git config --global --add safe.directory $(realpath .)
 
 echo "DONE"
