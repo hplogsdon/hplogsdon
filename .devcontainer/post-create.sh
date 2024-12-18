@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-set -eu -o pipefail
+set -euxo pipefail
 
 if ! command -v rbenv 2>&1 >/dev/null
 then
