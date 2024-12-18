@@ -66,5 +66,5 @@ sidebar:
     icon: fa-regular fa-brands fa-bluesky
     name: Bluesky
   - link: /atom.xml
-    icon: fa-regular fa-rss
+    icon: fa-solid fa-rss
     name: RSS
