@@ -25,10 +25,16 @@
 
   // setup and provisioning
   "postCreateCommand": "bash ${containerWorkspaceFolder}/.devcontainer/post-create.sh",
+  "postStartCommand": "git config --global --add safe.directory ${containerWorkspaceFolder}",
+  //"initializeCommand": "bash ${localWorkspaceFolder}/.devcontainer/gitconfig.sh",
+  "waitFor": "postCreateCommand",
   // Configure tool-specific properties.
   "customizations": {
     "jetbrains": {
       "settings": {
+        "com.intellij:app:BaseRefactoringSettings.safe_delete_when_delete": false,
+        "com.intellij:app:BaseRefactoringSettings.rename_search_in_comments_for_file": false,
+        "com.intellij:app:BaseRefactoringSettings.rename_search_for_references_for_file": false
       },
       "plugins": [
         "org.jetbrains.plugins.ruby",

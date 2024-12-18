@@ -42,7 +42,4 @@ fi
 
 #bundle exec jekyll serve --force-polling --baseurl=''
 
-# Mark workspace directory as safe for git
-git config --global --add safe.directory $(realpath .)
-
 echo "DONE"
